@@ -1,3 +1,4 @@
+import random
 def get_user_guess():
     while True:
         try:
@@ -8,7 +9,7 @@ def get_user_guess():
                 print("Please enter a number between 1 and 100")
         except ValueError:
                 print("invaild input !!")
-import random
+
 responses = ["yes,definitely",
              "no, not now",
              "ask again later",
